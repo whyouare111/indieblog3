@@ -3,7 +3,7 @@ name: Pages
 on:
   push:
     branches:
-      - source  # default branch
+      - source # default branch
 
 jobs:
   pages:
@@ -13,7 +13,7 @@ jobs:
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: "12.x"
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Theme
-        run: git clone -b indieblog https://github.com/whyouare111/hexo-theme-cactus.git themes/cactus            
+        run: git clone -b master https://github.com/whyouare111/hexo-theme-cactus.git themes/cactus
       - name: Install Dependencies
         run: npm install
       - name: Build
@@ -32,4 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: main  # deploying branch
+          publish_branch: main # deploying branch
