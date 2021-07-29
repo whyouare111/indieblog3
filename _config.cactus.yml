@@ -24,9 +24,9 @@ nav:
   search: /search/
   matataki: https://matataki.io/user/12458
   travelling: https://travellings.now.sh
-  
+
 social_links:
   github: http://github.com/whyouare111
   mail: mailto:whyouare556@protonmail.com
 
-colorscheme: "dark"
+colorscheme: "solarized-dark"

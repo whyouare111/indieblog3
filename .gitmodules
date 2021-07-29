@@ -1,0 +1,5 @@
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = git@whyouare111.github.com:/whyouare111/hexo-theme-cactus.git
+	branch = metaspace
+
