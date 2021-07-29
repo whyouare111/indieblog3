@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Theme
-        run: git clone -b master https://github.com/whyouare111/hexo-theme-cactus.git themes/cactus
+        run: git clone -b metaspace https://github.com/whyouare111/hexo-theme-cactus.git themes/cactus
       - name: Install Dependencies
         run: npm install
       - name: Build
