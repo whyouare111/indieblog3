@@ -436,8 +436,8 @@ body td {
 }
 @font-face {
   font-style: normal;
-  font-family: "Source-Han-Sans-CN-Regular";
-  src: local("Source-Han-Sans-CN-Regular"), url("../lib/source-han-sans-cn-regular/Source-Han-Sans-CN-Regular.ttf") format("truetype"), url("../lib/source-han-sans-cn-regular/Source-Han-Sans-CN-Regular.woff2") format("woff2"), url("../lib/source-han-sans-cn-regular/Source-Han-Sans-CN-Regular.woff") format("woff"), url("../lib/source-han-sans-cn-regular/Source-Han-Sans-CN-Regular.eot") format("embedded-opentype"), url("../lib/source-han-sans-cn-regular/Source-Han-Sans-CN-Regular.svg") format("svg");
+  font-family: "Meslo LG";
+  src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
 *,
 *:before,
@@ -460,7 +460,7 @@ body {
   font-display: swap;
   font-weight: 400;
   font-size: 16px;
-  font-family: "Inter", "Source-Han-Sans-CN-Regular", monospace;
+  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
   line-height: 1.5;
   text-rendering: geometricPrecision;
   flex: 1;
@@ -1391,7 +1391,7 @@ article .content .caption {
   font-display: swap;
   font-weight: 400;
   font-size: 12.8px;
-  font-family: "Inter", "Source-Han-Sans-CN-Regular", monospace;
+  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
   line-height: 1.5;
   text-rendering: geometricPrecision;
   text-align: center;
@@ -1557,7 +1557,7 @@ pre {
   border: 1px dotted #666;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "FiraCode", "Source-Han-Sans-CN-Regular", monospace;
+  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1578,7 +1578,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #002a35;
-  font-family: "FiraCode", "Source-Han-Sans-CN-Regular", monospace;
+  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
