@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>hexo-offline-popup-test</title>
+      <title>Hexo + Service Worker</title>
       <link href="/hexo-offline-popup-test/"/>
       <url>/hexo-offline-popup-test/</url>
       
-        <content type="html"><![CDATA[<p>测试 <a href="https://github.com/Colsrch/hexo-offline-popup">https://github.com/Colsrch/hexo-offline-popup</a> 文章更新提示</p>]]></content>
+        <content type="html"><![CDATA[<p>测试 <a href="https://github.com/Colsrch/hexo-offline-popup">https://github.com/Colsrch/hexo-offline-popup</a> 文章更新提示<br><a href="https://github.com/lavas-project/hexo-pwa">https://github.com/lavas-project/hexo-pwa</a></p>]]></content>
       
       
       
