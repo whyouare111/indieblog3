@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>hexo-offline-popup-test</title>
+      <link href="/hexo-offline-popup-test/"/>
+      <url>/hexo-offline-popup-test/</url>
+      
+        <content type="html"><![CDATA[<p>测试 <a href="https://github.com/Colsrch/hexo-offline-popup">https://github.com/Colsrch/hexo-offline-popup</a> 文章更新提示</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为独立子站增加“开往”导航</title>
       <link href="/2021/05/Gh20210535cde4c4641f73e02c21fa2a9ba96610/"/>
       <url>/2021/05/Gh20210535cde4c4641f73e02c21fa2a9ba96610/</url>
