@@ -460,7 +460,7 @@ body {
   font-display: swap;
   font-weight: 400;
   font-size: 16px;
-  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
+  font-family: "Fira Code", "Noto Sans SC", "Menlo", "Meslo LG", monospace;
   line-height: 1.5;
   text-rendering: geometricPrecision;
   flex: 1;
@@ -1391,7 +1391,7 @@ article .content .caption {
   font-display: swap;
   font-weight: 400;
   font-size: 12.8px;
-  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
+  font-family: "Fira Code", "Noto Sans SC", "Menlo", "Meslo LG", monospace;
   line-height: 1.5;
   text-rendering: geometricPrecision;
   text-align: center;
@@ -1557,7 +1557,7 @@ pre {
   border: 1px dotted #666;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
+  font-family: "Fira Code", "Noto Sans SC", "Menlo", "Meslo LG", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1578,7 +1578,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #002a35;
-  font-family: "Inter", "Noto Sans TC", "Menlo", "Meslo LG", monospace;
+  font-family: "Fira Code", "Noto Sans SC", "Menlo", "Meslo LG", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
