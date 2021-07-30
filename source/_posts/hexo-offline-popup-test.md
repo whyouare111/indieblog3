@@ -5,4 +5,11 @@ tags:
 ---
 
 测试 https://github.com/Colsrch/hexo-offline-popup 文章更新提示
+
+需要在 主题的模板文件里加上
+
+```html
+<link rel="manifest" href="/manifest.json" />
+```
+
 https://github.com/lavas-project/hexo-pwa
