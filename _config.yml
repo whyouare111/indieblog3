@@ -89,3 +89,14 @@ restful:
   use_tag_slug: false # Use slug for filename of tag data
   post: true # 文章数据
   pages: false # 额外的 Hexo 页面数据, 如 About
+# PWA
+service_worker:
+  runtimeCaching:
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: cdn.jsdelivr.net
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: cdnjs.cloudflare.com
