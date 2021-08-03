@@ -2,6 +2,10 @@
 title: Hexo + Service Worker
 date: 2021-07-30 12:33:53
 tags:
+  - Hexo
+  - PWA
+categories:
+  - Demo
 ---
 
 测试 https://github.com/Colsrch/hexo-offline-popup 文章更新提示
