@@ -45,6 +45,20 @@
         <content type="html"><![CDATA[<p>测试 <a href="https://github.com/Colsrch/hexo-offline-popup">https://github.com/Colsrch/hexo-offline-popup</a> 文章更新提示</p><p>需要在 主题的模板文件里加上</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;manifest&quot;</span> <span class="attr">href</span>=<span class="string">&quot;/manifest.json&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure><p><a href="https://github.com/lavas-project/hexo-pwa">https://github.com/lavas-project/hexo-pwa</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> Demo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> PWA </tag>
+            
+        </tags>
       
     </entry>
     

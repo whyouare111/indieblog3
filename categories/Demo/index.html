@@ -11,13 +11,11 @@
   />
   <meta name="description" content="宇宙唱晚 Web 3.0 &#x2F; 8-bit fan &#x2F; Metaverse">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Search">
-<meta property="og:url" content="https://metaspace.federarks.xyz/search/index.html">
+<meta property="og:title" content="未解区域">
+<meta property="og:url" content="https://metaspace.federarks.xyz/categories/Demo/index.html">
 <meta property="og:site_name" content="未解区域">
 <meta property="og:description" content="宇宙唱晚 Web 3.0 &#x2F; 8-bit fan &#x2F; Metaverse">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-08-03T03:51:28.362Z">
-<meta property="article:modified_time" content="2021-08-03T03:51:28.362Z">
 <meta property="article:author" content="WhyYouAre">
 <meta property="article:tag" content="web3 8-bit Metaverse 元宇宙">
 <meta name="twitter:card" content="summary">
@@ -38,7 +36,7 @@
   />
     
   <!-- title -->
-  <title>Search</title>
+  <title>分类: Demo</title>
   <!-- styles -->
   
 <link rel="stylesheet" href="/css/style.css">
@@ -111,22 +109,42 @@
 </header>
 
         
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div id="archive">
+  <ul class="post-list">
+    
+    
+    
+    
+      
+      
+      
+      
+        <li class="post-year"><h2>2021</h2></li>
+      
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2021-07-30T04:33:53.000Z" itemprop="datePublished">2021-07-30</time>
+        
+      
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/hexo-offline-popup-test/">Hexo + Service Worker</a>
+    
+
+
+</span>
+      </li>
+    
+  </ul>
   
 
-  <div class="content" itemprop="articleBody">
-      
-        <section id="search">
-  <form>
-    <input type="text" class="search-input" id="search-input" placeholder="搜索...">
-  </form>
-  <div id="search-result"></div>
-  <p class="search-no-result">抱歉，没有符合您搜索条件的结果。请换其它关键词再试。</p>
-</section>
-
-      
-  </div>
-</article>
+</div>
 
         
         <footer id="footer">
@@ -179,45 +197,6 @@
 <script src="/js/main.js"></script>
 
 <!-- search -->
-
-  
-<script src="/js/search.js"></script>
-
-  <script type="text/javascript">
-  $(function() {
-
-    var $inputArea = $("input#search-input");
-    var $resultArea = document.querySelector("div#search-result");
-
-    $inputArea.focus(function() {
-      var search_path = "search.xml";
-      if (search_path.length == 0) {
-        search_path = "search.xml";
-      }
-      var path = "/" + search_path;
-      searchFunc(path, 'search-input', 'search-result');
-    });
-
-    $inputArea.keydown(function(e) {
-      if (e.which == 13) {
-        e.preventDefault();
-      }
-    });
-
-    var observer = new MutationObserver(function(mutationsList, observer) {
-      if (mutationsList.length == 1) {
-        if (mutationsList[0].addedNodes.length) {
-          $(".search-no-result").hide();
-        } else if (mutationsList[0].removedNodes.length) {
-          $(".search-no-result").show(200);
-        }
-      }
-    });
-
-    observer.observe($resultArea, { childList: true });
-
-  });
-  </script>
 
 <!-- Google Analytics -->
 
