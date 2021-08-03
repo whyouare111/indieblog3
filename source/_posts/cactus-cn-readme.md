@@ -1,7 +1,8 @@
 ---
 title: Hexo Theme Cactus CN Readme
 date: 2021-05-06 14:35:39
-tags:
+tags: ["Hexo","Theme"]
+categories: ["Guide"]
 ---
 
 原文链接：https://xuthus.vercel.app/misc/cactus-chinese-support.htm
@@ -14,6 +15,7 @@ tags:
 
 ## 使用说明
 
+- [使用说明](#使用说明)
 - [特征](#特征)
 - [安装](#安装)
 - [配置](#配置)
