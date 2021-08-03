@@ -1,6 +1,7 @@
 ---
 title: Hexo + Service Worker
 date: 2021-07-30 12:33:53
+cover: /images/cover1.jpg
 tags:
   - Hexo
   - PWA
