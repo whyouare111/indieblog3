@@ -7,6 +7,7 @@ tags:
   - PWA
 categories:
   - Demo
+  - Main
 ---
 
 测试 https://github.com/Colsrch/hexo-offline-popup 文章更新提示
