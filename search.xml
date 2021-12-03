@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>videojs-demo</title>
+      <link href="/videojs-demo/"/>
+      <url>/videojs-demo/</url>
+      
+        <content type="html"><![CDATA[<div>  <video-js id="videojs-id-705f2646-de67-4b3f-8a20-af5a4c2a8d16"     class="vjs-default-skin vjs-16-9"     controls     preload="auto"     width="100%"     height="350px">    <source src="https://d2zihajmogu5jn.cloudfront.net/advanced-fmp4/master.m3u8" type="application&#x2F;x-mpegURL">  </video-js>      <script>    const videojsid705f2646de674b3f8a20af5a4c2a8d16 = videojs('videojs-id-705f2646-de67-4b3f-8a20-af5a4c2a8d16', {      html5: {        hls: {          overrideNative: true        }      }    });  </script>  </div> ]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>独立子站 AS API</title>
       <link href="/2021/08/Gh20210829a2d72ea0bd51d907a0f53a7560a097/"/>
       <url>/2021/08/Gh20210829a2d72ea0bd51d907a0f53a7560a097/</url>
